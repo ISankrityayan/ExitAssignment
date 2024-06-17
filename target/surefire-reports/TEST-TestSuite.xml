@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="673.448" tests="20" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ishitasankrityayan\eclipse-workspace\ExitTest\target\test-classes;C:\Users\ishitasankrityayan\eclipse-workspace\ExitTest\target\classes;C:\Users\ishitasankrityayan\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\ishitasankrityayan\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\ishitasankrityayan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ishitasankrityayan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ishitasankrityayan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ishitasankrityayan\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\ishitasankrityayan\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\ishitasankrityayan\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\ishitasankrityayan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\ishitasankrityayan\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ishitasankrityayan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ishitasankrityayan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\ishitasankrityayan\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\slf4j\log4j-over-slf4j\2.0.13\log4j-over-slf4j-2.0.13.jar;C:\Users\ishitasankrityayan\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ishitasankrityayan\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ishitasankrityayan\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ishitasankrityayan\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ishitasankrityayan\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.23.1\log4j-slf4j-impl-2.23.1.jar;C:\Users\ishitasankrityayan\.m2\repository\ch\qos\logback\logback-classic\1.5.5\logback-classic-1.5.5.jar;C:\Users\ishitasankrityayan\.m2\repository\ch\qos\logback\logback-core\1.5.5\logback-core-1.5.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="property" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\.Net &amp; Java Software\Open JKD -11\bin"/>
+    <property name="sun.java.command" value="C:\Users\ishitasankrityayan\AppData\Local\Temp\surefire17567604961347560878\surefirebooter-20240617225746704_3.jar C:\Users\ishitasankrityayan\AppData\Local\Temp\surefire17567604961347560878 2024-06-17T22-57-44_655-jvmRun1 surefire-20240617225746704_1tmp surefire_0-20240617225746704_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ishitasankrityayan\eclipse-workspace\ExitTest\target\test-classes;C:\Users\ishitasankrityayan\eclipse-workspace\ExitTest\target\classes;C:\Users\ishitasankrityayan\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\ishitasankrityayan\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\ishitasankrityayan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ishitasankrityayan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ishitasankrityayan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ishitasankrityayan\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\ishitasankrityayan\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\ishitasankrityayan\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\ishitasankrityayan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\ishitasankrityayan\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ishitasankrityayan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\ishitasankrityayan\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\ishitasankrityayan\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ishitasankrityayan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\ishitasankrityayan\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ishitasankrityayan\.m2\repository\org\slf4j\log4j-over-slf4j\2.0.13\log4j-over-slf4j-2.0.13.jar;C:\Users\ishitasankrityayan\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\ishitasankrityayan\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ishitasankrityayan\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ishitasankrityayan\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ishitasankrityayan\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ishitasankrityayan\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\ishitasankrityayan\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.23.1\log4j-slf4j-impl-2.23.1.jar;C:\Users\ishitasankrityayan\.m2\repository\ch\qos\logback\logback-classic\1.5.5\logback-classic-1.5.5.jar;C:\Users\ishitasankrityayan\.m2\repository\ch\qos\logback\logback-core\1.5.5\logback-core-1.5.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ishitasankrityayan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.home" value="C:\.Net &amp; Java Software\Open JKD -11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ishitasankrityayan\eclipse-workspace\ExitTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ishitasankrityayan\AppData\Local\Temp\surefire17567604961347560878\surefirebooter-20240617225746704_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.1+13"/>
+    <property name="user.name" value="ishitasankrityayan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\ishitasankrityayan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ISHITA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="user.dir" value="C:\Users\ishitasankrityayan\eclipse-workspace\ExitTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\.Net &amp; Java Software\Open JKD -11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/ishitasankrityayan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/ishitasankrityayan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\.Net &amp; Java Software\Open JKD -11\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Users\ishitasankrityayan\apache-maven-3.9.6\bin;C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\ishitasankrityayan\AppData\Local\Microsoft\WindowsApps;C:\Users\ishitasankrityayan\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Users\ishitasankrityayan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ishitasankrityayan\.dotnet\tools;C:\Users\ishitasankrityayan\Desktop;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.1+13"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="contact" classname="tests.CustomerServiceTest" time="10.383">
+    <system-out><![CDATA[22:57:47.665 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\ishitasankrityayan\eclipse-workspace\ExitTest\testng.xml"
+22:57:49.413 [TestNG-test-Test-2] INFO  tests.CustomerServiceTest - Starting the Contact Us test
+22:57:49.413 [TestNG-test-Test-1] INFO  tests.GiftCardTest - Starting the Gift Card page test
+22:57:49.440 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+22:57:49.455 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+22:57:49.882 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+22:57:49.882 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+22:57:49.883 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+22:57:49.883 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+22:57:49.883 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+22:57:49.883 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+22:57:49.919 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+22:57:49.919 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+22:57:49.920 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+22:57:49.921 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+22:57:52.356 [TestNG-test-Test-2] DEBUG tests.CustomerServiceTest - Browser initialized
+22:57:52.386 [TestNG-test-Test-1] DEBUG tests.GiftCardTest - Browser initialized
+22:57:57.940 [TestNG-test-Test-1] INFO  tests.GiftCardTest - Navigated to URL: https://www.flipkart.com/
+22:57:57.948 [TestNG-test-Test-2] INFO  tests.CustomerServiceTest - Navigated to URL: https://www.flipkart.com/
+22:57:58.005 [TestNG-test-Test-1] DEBUG tests.GiftCardTest - Scrolling to Gift Card link
+22:57:58.005 [TestNG-test-Test-2] DEBUG tests.CustomerServiceTest - Waiting for Contact Us link to be clickable
+22:57:58.059 [TestNG-test-Test-1] DEBUG tests.GiftCardTest - Waiting for the Gift Card link to be clickable
+22:57:58.100 [TestNG-test-Test-2] DEBUG tests.CustomerServiceTest - Clicking on Contact Us link
+22:57:58.129 [TestNG-test-Test-1] DEBUG tests.GiftCardTest - Clicking on Gift Card link
+22:57:59.689 [TestNG-test-Test-2] DEBUG tests.CustomerServiceTest - Waiting for Contact Us page header to be visible
+22:57:59.736 [TestNG-test-Test-2] DEBUG tests.CustomerServiceTest - Asserting if Contact Us page is displayed
+22:57:59.770 [TestNG-test-Test-2] INFO  tests.CustomerServiceTest - Contact Us test completed successfully
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2024 10:57:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+Jun 17, 2024 10:57:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+]]></system-err>
+  </testcase>
+  <testcase name="giftcard" classname="tests.GiftCardTest" time="10.569">
+    <system-out><![CDATA[22:57:59.780 [TestNG-test-Test-2] DEBUG tests.CustomerServiceTest - Closing the browser
+22:57:59.855 [TestNG-test-Test-1] DEBUG tests.GiftCardTest - Waiting for Gift Card page to load
+22:57:59.921 [TestNG-test-Test-1] DEBUG tests.GiftCardTest - Asserting if Gift Card page is displayed
+22:57:59.963 [TestNG-test-Test-1] INFO  tests.GiftCardTest - Gift Card Page test completed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="shopsy" classname="tests.NewSiteShopsyTest" time="9.057">
+    <system-out><![CDATA[22:57:59.964 [TestNG-test-Test-1] DEBUG tests.GiftCardTest - Closing the browser
+22:58:00.615 [TestNG-test-Test-1] INFO  tests.NewSiteShopsyTest - Starting the Shopsy site test
+22:58:00.617 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+22:58:00.629 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+22:58:00.630 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+22:58:00.631 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+22:58:00.639 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+22:58:00.640 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+22:58:01.730 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:58:01.778 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+22:58:02.242 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+22:58:02.249 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+22:58:02.251 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+22:58:02.252 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+22:58:02.253 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+22:58:02.256 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+22:58:02.287 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+22:58:02.291 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+22:58:02.304 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+22:58:02.307 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+22:58:02.309 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+22:58:02.312 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+22:58:02.315 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+22:58:02.318 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+22:58:02.518 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+22:58:02.520 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+22:58:02.615 [TestNG-test-Test-1] DEBUG tests.NewSiteShopsyTest - Browser initialized
+22:58:02.714 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+22:58:02.727 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+22:58:02.741 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+22:58:02.754 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+22:58:02.772 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+22:58:02.780 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+22:58:02.785 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+22:58:02.792 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+22:58:02.800 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+22:58:02.806 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+22:58:02.817 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+22:58:02.823 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+22:58:02.831 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+22:58:02.840 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+22:58:02.850 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+22:58:02.883 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+22:58:02.957 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+22:58:02.978 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+22:58:02.992 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+22:58:03.002 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+22:58:03.009 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+22:58:03.017 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+22:58:03.034 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+22:58:03.054 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+22:58:03.063 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+22:58:03.080 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+22:58:03.101 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+22:58:03.126 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+22:58:03.136 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+22:58:03.279 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+22:58:03.290 [TestNG-test-Test-2] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+22:58:03.360 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:58:03.367 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+TestCase Column Index: 0
+Column Index: 2
+Execution Required Column Index: 1
+Found data for TestCaseName: PincodeTest, Execution Required: Yes, SearchTerm: iPhone
+22:58:03.572 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:58:03.583 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+TestCase Column Index: 0
+Column Index: 3
+Execution Required Column Index: 1
+Found data for TestCaseName: PincodeTest, Execution Required: Yes, Pincode: 223.0
+22:58:03.710 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+22:58:03.812 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+22:58:03.814 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+22:58:03.815 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+22:58:03.861 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+22:58:03.863 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+22:58:06.639 [TestNG-test-Test-1] INFO  tests.NewSiteShopsyTest - Navigated to URL: https://www.flipkart.com/
+22:58:06.642 [TestNG-test-Test-1] DEBUG tests.NewSiteShopsyTest - Clicking on shopsy link
+22:58:06.919 [TestNG-test-Test-2] DEBUG tests.PincodeTest - Navigated to URL: https://www.flipkart.com/
+22:58:07.077 [TestNG-test-Test-1] DEBUG tests.NewSiteShopsyTest - Switching window
+22:58:10.393 [TestNG-test-Test-2] DEBUG tests.PincodeTest - Entered search term: iPhone
+22:58:10.580 [TestNG-test-Test-1] INFO  tests.NewSiteShopsyTest - Shopsy element is displayed, test passed
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2024 10:58:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+Jun 17, 2024 10:58:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+]]></system-err>
+  </testcase>
+  <testcase name="pincode" classname="tests.PincodeTest" time="12.532">
+    <system-out><![CDATA[22:58:10.581 [TestNG-test-Test-1] DEBUG tests.NewSiteShopsyTest - Closing the browser
+22:58:12.722 [TestNG-test-Test-1] INFO  tests.FlipkartStoriesTest - Starting the Flipkart stories page test
+22:58:12.725 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+22:58:12.745 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+22:58:12.747 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+22:58:12.747 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+22:58:12.809 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+22:58:12.812 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+22:58:15.737 [TestNG-test-Test-1] DEBUG tests.FlipkartStoriesTest - Browser initialized
+22:58:17.224 [TestNG-test-Test-2] DEBUG tests.PincodeTest - Clicked search button
+22:58:18.430 [TestNG-test-Test-2] DEBUG tests.PincodeTest - Clicked on product card
+22:58:18.929 [TestNG-test-Test-2] DEBUG tests.PincodeTest - Switched to product details window
+22:58:19.606 [TestNG-test-Test-1] INFO  tests.FlipkartStoriesTest - Navigated to URL: https://www.flipkart.com/
+22:58:19.609 [TestNG-test-Test-1] DEBUG tests.FlipkartStoriesTest - Clicking on Flipkart Stories link
+22:58:21.942 [TestNG-test-Test-2] INFO  tests.PincodeTest - Product details are displayed
+22:58:22.370 [TestNG-test-Test-2] DEBUG tests.PincodeTest - Entered pincode: 223.0
+22:58:22.629 [TestNG-test-Test-2] DEBUG tests.PincodeTest - Clicked check button
+22:58:22.720 [TestNG-test-Test-2] INFO  tests.PincodeTest - Invalid pincode message is displayed
+22:58:25.209 [TestNG-test-Test-2] DEBUG tests.PincodeTest - Browser closed for test case: PincodeTest
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2024 10:58:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+]]></system-err>
+  </testcase>
+  <testcase name="stories" classname="tests.FlipkartStoriesTest" time="2.985">
+    <system-out><![CDATA[22:58:25.225 [TestNG-test-Test-2] DEBUG tests.PincodeTest - Browser closed in teardown method.
+22:58:25.231 [TestNG-test-Test-2] INFO  tests.AboutTest - Starting the About Us test
+22:58:25.234 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+22:58:25.255 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+22:58:25.256 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+22:58:25.256 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+22:58:25.303 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+22:58:25.313 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+22:58:27.725 [TestNG-test-Test-1] DEBUG tests.FlipkartStoriesTest - Asserting if Flipkart Stories page is displayed
+22:58:28.353 [TestNG-test-Test-1] INFO  tests.FlipkartStoriesTest - Flipkart Stories Page test completed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="About" classname="tests.AboutTest" time="12.285">
+    <system-out><![CDATA[22:58:28.356 [TestNG-test-Test-1] DEBUG tests.FlipkartStoriesTest - Closing the browser
+22:58:29.051 [TestNG-test-Test-2] DEBUG tests.AboutTest - Browser initialized
+22:58:29.740 [TestNG-test-Test-2] INFO  tests.AboutTest - Navigated to URL: https://www.flipkart.com/
+22:58:29.742 [TestNG-test-Test-2] DEBUG tests.AboutTest - Waiting for the About Us link to be clickable
+22:58:33.259 [TestNG-test-Test-2] DEBUG tests.AboutTest - Clicking on About Us link
+22:58:33.741 [TestNG-test-Test-2] DEBUG tests.AboutTest - Waiting for the About Us page to be displayed
+22:58:36.836 [TestNG-test-Test-2] DEBUG tests.AboutTest - Asserting if About Us page is displayed
+22:58:37.649 [TestNG-test-Test-2] INFO  tests.AboutTest - About Us test completed successfully
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2024 10:58:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+]]></system-err>
+  </testcase>
+  <testcase name="grocery" classname="tests.GroceryTest" time="16.856">
+    <system-out><![CDATA[22:58:37.654 [TestNG-test-Test-2] DEBUG tests.AboutTest - Closing the browser
+22:58:42.910 [TestNG-test-Test-1] INFO  tests.GroceryTest - Starting the Grocery page test
+22:58:42.913 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+22:58:42.931 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+22:58:42.932 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+22:58:42.932 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+22:58:42.967 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+22:58:42.972 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+22:58:57.665 [TestNG-test-Test-1] DEBUG tests.GroceryTest - Browser initialized
+22:58:58.864 [TestNG-test-Test-2] INFO  tests.NotificationTest - Starting the notification test
+22:58:58.888 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+22:58:58.924 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+22:58:58.925 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+22:58:58.926 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+22:58:59.498 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+22:58:59.501 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+22:59:08.703 [TestNG-test-Test-1] INFO  tests.GroceryTest - Navigated to URL: https://www.flipkart.com/
+22:59:08.705 [TestNG-test-Test-1] DEBUG tests.GroceryTest - Waiting for the grocery icon to be clickable
+22:59:08.813 [TestNG-test-Test-1] DEBUG tests.GroceryTest - Clicking on grocery icon
+22:59:12.237 [TestNG-test-Test-2] DEBUG tests.NotificationTest - Browser initialized
+22:59:14.882 [TestNG-test-Test-1] DEBUG tests.GroceryTest - Waiting for the Grocery page image to be visible
+22:59:15.474 [TestNG-test-Test-1] DEBUG tests.GroceryTest - Asserting if Grocery page is displayed
+22:59:15.718 [TestNG-test-Test-1] INFO  tests.GroceryTest - Grocery Page test completed successfully
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2024 10:58:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+Jun 17, 2024 10:59:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+]]></system-err>
+  </testcase>
+  <testcase name="notification" classname="tests.NotificationTest" time="25.96">
+    <system-out><![CDATA[22:59:15.721 [TestNG-test-Test-1] DEBUG tests.GroceryTest - Closing the browser
+22:59:20.409 [TestNG-test-Test-2] INFO  tests.NotificationTest - Navigated to URL: https://www.flipkart.com/
+22:59:20.410 [TestNG-test-Test-2] DEBUG tests.NotificationTest - Clicking on dropdown
+22:59:20.910 [TestNG-test-Test-2] DEBUG tests.NotificationTest - Clicking on Notification
+22:59:24.480 [TestNG-test-Test-2] DEBUG tests.NotificationTest - Asserting if Desktop Notification is displayed
+22:59:24.821 [TestNG-test-Test-2] INFO  tests.NotificationTest - Notification test completed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="TernsOfUse" classname="tests.TermsOfUse" time="25.071">
+    <system-out><![CDATA[22:59:24.824 [TestNG-test-Test-2] DEBUG tests.NotificationTest - Closing the browser
+22:59:31.770 [TestNG-test-Test-2] INFO  tests.TravelTest - Starting the travel test
+22:59:31.773 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+22:59:31.789 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+22:59:31.790 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+22:59:31.790 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+22:59:31.976 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+22:59:31.980 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+22:59:40.563 [TestNG-test-Test-2] DEBUG tests.TravelTest - Browser initialized
+22:59:46.575 [TestNG-test-Test-2] INFO  tests.TravelTest - Navigated to URL: https://www.flipkart.com/
+22:59:46.579 [TestNG-test-Test-2] DEBUG tests.TravelTest - Waiting for the Travel icon to be clickable
+22:59:46.671 [TestNG-test-Test-2] DEBUG tests.TravelTest - Clicking on Travel icon
+22:59:47.372 [TestNG-test-Test-1] INFO  tests.TermsOfUse - Starting the Terms of Use test
+22:59:47.375 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+22:59:47.391 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+22:59:47.393 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+22:59:47.393 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+22:59:47.413 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+22:59:47.416 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+22:59:50.761 [TestNG-test-Test-2] DEBUG tests.TravelTest - Waiting for the Travel page to be displayed
+22:59:57.960 [TestNG-test-Test-1] DEBUG tests.TermsOfUse - Browser initialized
+23:00:08.256 [TestNG-test-Test-1] INFO  tests.TermsOfUse - Navigated to URL: https://www.flipkart.com/
+23:00:08.258 [TestNG-test-Test-1] DEBUG tests.TermsOfUse - Clicking on Terms of Use link
+23:00:10.785 [TestNG-test-Test-1] DEBUG tests.TermsOfUse - Asserting if Terms of Use page is displayed
+23:00:10.910 [TestNG-test-Test-2] DEBUG tests.TravelTest - Asserting if Travel page is displayed
+23:00:12.441 [TestNG-test-Test-1] INFO  tests.TermsOfUse - Terms of Use test completed successfully
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2024 10:59:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+Jun 17, 2024 10:59:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+]]></system-err>
+  </testcase>
+  <testcase name="travel" classname="tests.TravelTest" time="44.392">
+    <system-out><![CDATA[23:00:12.443 [TestNG-test-Test-1] DEBUG tests.TermsOfUse - Closing the browser
+23:00:31.723 [TestNG-test-Test-2] INFO  tests.TravelTest - Travel test completed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="fashion" classname="tests.FashionTest" time="61.483">
+    <system-out><![CDATA[23:00:31.775 [TestNG-test-Test-2] DEBUG tests.TravelTest - Closing the browser
+23:00:43.768 [TestNG-test-Test-1] INFO  tests.BecomeASellerTest - Starting the Fashion category test
+23:00:43.771 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:00:43.787 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:00:43.788 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:00:43.788 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:00:43.811 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:00:43.815 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+23:00:48.639 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:00:48.641 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:00:49.657 [TestNG-test-Test-2] INFO  tests.RemoveCartTest - Executing test case: CartTest
+23:00:49.657 [TestNG-test-Test-2] INFO  tests.RemoveCartTest - Search Term: One Plus 11
+23:00:49.660 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:00:49.673 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:00:49.674 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:00:49.675 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:00:50.616 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:00:50.617 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+23:01:02.584 [TestNG-test-Test-1] DEBUG tests.BecomeASellerTest - Browser initialized
+23:01:25.420 [TestNG-test-Test-1] INFO  tests.BecomeASellerTest - Navigated to URL: https://www.flipkart.com/
+23:01:25.421 [TestNG-test-Test-1] DEBUG tests.BecomeASellerTest - Waiting for the Fashion link to be clickable
+23:01:25.518 [TestNG-test-Test-1] DEBUG tests.BecomeASellerTest - Clicking on fashion link
+23:01:36.417 [TestNG-test-Test-2] DEBUG tests.RemoveCartTest - Navigated to URL: https://www.flipkart.com/
+23:01:46.672 [TestNG-test-Test-1] DEBUG tests.BecomeASellerTest - Waiting for the fashion to be visible
+23:01:49.187 [TestNG-test-Test-1] DEBUG tests.BecomeASellerTest - Asserting if fashion page is displayed
+23:01:50.084 [TestNG-test-Test-1] INFO  tests.BecomeASellerTest - Fashion category test completed successfully
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2024 11:01:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+Jun 17, 2024 11:01:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+]]></system-err>
+  </testcase>
+  <testcase name="RemoveCart" classname="tests.RemoveCartTest" time="143.015">
+    <system-out><![CDATA[23:01:50.087 [TestNG-test-Test-1] DEBUG tests.BecomeASellerTest - Closing the browser
+23:01:58.188 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:01:58.191 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:01:58.352 [TestNG-test-Test-1] INFO  tests.CartTest - Executing test case: AddToCart
+23:01:58.354 [TestNG-test-Test-1] INFO  tests.CartTest - Search Term: iPhone
+23:01:58.369 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:01:58.477 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:01:58.479 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:01:58.479 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:01:58.505 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:01:58.511 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+23:02:53.105 [TestNG-test-Test-2] DEBUG tests.RemoveCartTest - Entered search term: One Plus 11
+23:03:23.580 [TestNG-test-Test-2] INFO  tests.RemoveCartTest - Product details are displayed.
+23:03:23.654 [TestNG-test-Test-2] DEBUG tests.RemoveCartTest - Scrolled to cart button.
+23:03:31.374 [TestNG-test-Test-1] DEBUG tests.CartTest - Navigated to URL: https://www.flipkart.com/
+23:03:36.457 [TestNG-test-Test-2] INFO  tests.RemoveCartTest - Clicked on cart button.
+23:03:40.541 [TestNG-test-Test-1] DEBUG tests.CartTest - Entered search term: iPhone
+23:03:55.729 [TestNG-test-Test-2] INFO  tests.RemoveCartTest - Clicked on remove button.
+23:04:01.575 [TestNG-test-Test-2] INFO  tests.RemoveCartTest - Confirmed remove action.
+23:04:05.508 [TestNG-test-Test-1] DEBUG tests.CartTest - Clicked search button
+23:04:11.648 [TestNG-test-Test-1] DEBUG tests.CartTest - Clicked on product card
+23:04:20.030 [TestNG-test-Test-1] DEBUG tests.CartTest - Switched to product details window
+23:04:21.191 [TestNG-test-Test-2] DEBUG tests.RemoveCartTest - Browser closed for test case: CartTest
+]]></system-out>
+    <system-err><![CDATA[Jun 17, 2024 11:02:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+]]></system-err>
+  </testcase>
+  <testcase name="NaviagteToCart" classname="tests.NaviagteToCartTest" time="93.054">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: DevToolsActivePort file doesn&apos;t exist &#10;Host info: host: &apos;IN-PG03525F&apos;, ip: &apos;192.168.1.3&apos;&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --no-sandbox, --window-size=1920,1080, --disable-gpu, --disable-dev-shm-usage, --allow-insecure-localhost], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: DevToolsActivePort file doesn't exist 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --no-sandbox, --window-size=1920,1080, --disable-gpu, --disable-dev-shm-usage, --allow-insecure-localhost], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at resources.Base.initializeBrowser(Base.java:45)
+	at tests.NaviagteToCartTest.NaviagteToCart(NaviagteToCartTest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[23:04:21.194 [TestNG-test-Test-2] INFO  tests.NaviagteToCartTest - Starting the navigate to cart test
+23:04:21.197 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:04:21.212 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:04:21.214 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:04:21.214 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:04:23.161 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:04:23.163 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+23:04:44.188 [TestNG-test-Test-1] INFO  tests.CartTest - Product details are displayed
+23:04:46.265 [TestNG-test-Test-1] DEBUG tests.CartTest - Scrolled to cart button
+23:04:58.688 [TestNG-test-Test-1] DEBUG tests.CartTest - Clicked cart button
+23:05:07.160 [TestNG-test-Test-1] DEBUG tests.CartTest - Order button is visible
+23:05:07.197 [TestNG-test-Test-1] INFO  tests.CartTest - Order button is displayed
+23:05:10.213 [TestNG-test-Test-1] DEBUG tests.CartTest - Switched back to original window
+23:05:31.087 [TestNG-test-Test-1] DEBUG tests.CartTest - Browser closed for test case: AddToCart
+23:05:31.087 [TestNG-test-Test-1] INFO  tests.CartTest - Executing test case: AddToCart
+23:05:31.087 [TestNG-test-Test-1] INFO  tests.CartTest - Search Term: Laptop
+23:05:31.090 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:05:31.103 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:05:31.104 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:05:31.104 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:05:31.120 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:05:31.123 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCart" classname="tests.CartTest" time="2.007">
+    <system-out><![CDATA[23:05:54.248 [TestNG-test-Test-2] INFO  tests.LandingPageTest - Starting the Landing Page test
+23:05:54.250 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:05:54.263 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:05:54.264 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:05:54.264 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:05:56.187 [TestNG-test-Test-1] ERROR tests.CartTest - Error occurred during the test case execution: AddToCart
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at resources.Base.initializeBrowser(Base.java:45) ~[classes/:?]
+	at tests.CartTest.AddToCart(CartTest.java:50) [test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.1.jar:7.10.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.1.jar:7.10.1]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.openqa.selenium.WebDriverException: Failed waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:253) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.1.jar:?]
+	... 26 more
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022) ~[?:?]
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:234) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.1.jar:?]
+	... 26 more
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:278) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:212) ~[selenium-remote-driver-4.18.1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700) ~[?:?]
+	... 3 more
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:8140/status] to be available after 20009 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94) ~[selenium-api-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:274) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:212) ~[selenium-remote-driver-4.18.1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700) ~[?:?]
+	... 3 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204) ~[?:?]
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91) ~[selenium-api-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:274) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:212) ~[selenium-remote-driver-4.18.1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700) ~[?:?]
+	... 3 more
+23:05:56.247 [TestNG-test-Test-1] DEBUG tests.CartTest - Browser closed for test case: AddToCart
+]]></system-out>
+  </testcase>
+  <testcase name="LandingPage" classname="tests.LandingPageTest" time="30.638">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;IN-PG03525F&apos;, ip: &apos;192.168.1.3&apos;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at resources.Base.initializeBrowser(Base.java:45)
+	at tests.LandingPageTest.LandingPage(LandingPageTest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.WebDriverException: Failed waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:253)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	... 26 more
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:234)
+	... 28 more
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:278)
+	at org.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:212)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	... 3 more
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:21678/status] to be available after 20009 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:274)
+	... 5 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
+	... 6 more
+]]></failure>
+    <system-out><![CDATA[23:05:56.248 [TestNG-test-Test-1] DEBUG tests.CartTest - Browser closed in teardown method.
+23:05:56.265 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:05:56.270 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:05:56.539 [TestNG-test-Test-1] INFO  tests.SignUpTest - Executing test case: CartTest
+23:05:56.539 [TestNG-test-Test-1] INFO  tests.SignUpTest - Phone: 1.234560789E9
+23:05:56.542 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:05:56.601 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:05:56.610 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:05:56.611 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:05:56.701 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:05:56.709 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+23:05:57.249 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:05:57.250 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="seller" classname="tests.BecomeASellerTest" time="25.74">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;IN-PG03525F&apos;, ip: &apos;192.168.1.3&apos;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at resources.Base.initializeBrowser(Base.java:45)
+	at tests.BecomeASellerTest.seller(BecomeASellerTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.WebDriverException: Failed waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:253)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	... 26 more
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:234)
+	... 28 more
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:278)
+	at org.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:212)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	... 3 more
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41089/status] to be available after 20002 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:274)
+	... 5 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
+	... 6 more
+]]></failure>
+    <system-out><![CDATA[23:06:26.898 [TestNG-test-Test-2] INFO  tests.BecomeASellerTest - Starting the Become A Seller page test
+23:06:26.901 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:06:26.915 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:06:26.916 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:06:26.916 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:06:30.069 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:06:30.069 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+]]></system-out>
+  </testcase>
+  <testcase name="signup" classname="tests.SignUpTest" time="28.82">
+    <system-out><![CDATA[23:06:52.648 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:52.650 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:52.797 [TestNG-test-Test-2] INFO  tests.ProdDetailsTest - Executing test case: CartTest
+23:06:52.797 [TestNG-test-Test-2] INFO  tests.ProdDetailsTest - Search Term: One Plus 11
+23:06:52.799 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:06:52.812 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:06:52.813 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:06:52.813 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:06:54.800 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:06:54.800 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+23:07:21.454 [TestNG-test-Test-1] ERROR tests.SignUpTest - Error occurred during the test case execution: CartTest
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: DevToolsActivePort file doesn't exist 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --no-sandbox, --window-size=1920,1080, --disable-gpu, --disable-dev-shm-usage, --allow-insecure-localhost], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at resources.Base.initializeBrowser(Base.java:45) ~[classes/:?]
+	at tests.SignUpTest.signup(SignUpTest.java:41) [test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.1.jar:7.10.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.1.jar:7.10.1]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:834) [?:?]
+]]></system-out>
+  </testcase>
+  <testcase name="ProductDetails" classname="tests.ProdDetailsTest" time="0.567">
+    <system-out><![CDATA[23:07:21.467 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:07:21.469 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:07:21.598 [TestNG-test-Test-1] INFO  tests.SaveForLaterTest - Executing test case: CartTest
+23:07:21.600 [TestNG-test-Test-1] INFO  tests.SaveForLaterTest - Search Term: One Plus 11
+23:07:21.614 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:07:21.673 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:07:21.676 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:07:21.676 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:07:21.715 [TestNG-test-Test-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:07:21.716 [TestNG-test-Test-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+23:07:22.021 [TestNG-test-Test-2] ERROR tests.ProdDetailsTest - Error occurred during the test case execution: CartTest
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at resources.Base.initializeBrowser(Base.java:45) ~[classes/:?]
+	at tests.ProdDetailsTest.ProductDetails(ProdDetailsTest.java:42) [test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.1.jar:7.10.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.1.jar:7.10.1]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:249) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.1.jar:?]
+	... 26 more
+]]></system-out>
+  </testcase>
+  <testcase name="SaveCart" classname="tests.SaveForLaterTest" time="22.86">
+    <system-out><![CDATA[23:07:22.036 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:07:22.038 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:07:25.194 [TestNG-test-Test-2] INFO  tests.SearchTest - Executing test case: SearchTest
+23:07:25.194 [TestNG-test-Test-2] INFO  tests.SearchTest - Search Term: One Plus 11
+23:07:25.196 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.8.0
+23:07:25.567 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 23:28:37 17/06/2024 IST)
+23:07:25.569 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.61 in cache (valid until 15:53:25 18/06/2024 IST)
+23:07:25.569 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.61 (resolved driver for Chrome 126)
+23:07:25.583 [TestNG-test-Test-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.61 found in cache
+23:07:25.584 [TestNG-test-Test-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\ishitasankrityayan\.cache\selenium\chromedriver\win64\126.0.6478.61\chromedriver.exe
+23:07:44.883 [TestNG-test-Test-1] ERROR tests.SaveForLaterTest - Error occurred during the test case execution: CartTest
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at resources.Base.initializeBrowser(Base.java:45) ~[classes/:?]
+	at tests.SaveForLaterTest.SaveCart(SaveForLaterTest.java:49) [test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.1.jar:7.10.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.1.jar:7.10.1]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:249) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.1.jar:?]
+	... 26 more
+]]></system-out>
+  </testcase>
+  <testcase name="Search" classname="tests.SearchTest" time="28.739">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;IN-PG03525F&apos;, ip: &apos;192.168.1.3&apos;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at resources.Base.initializeBrowser(Base.java:45)
+	at tests.SearchTest.Search(SearchTest.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:249)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	... 26 more
+]]></failure>
+  </testcase>
+</testsuite>

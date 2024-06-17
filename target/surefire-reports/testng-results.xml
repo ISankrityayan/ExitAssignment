@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="16" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-17T22:57:49 IST" name="Suite" finished-at="2024-06-17T23:07:50 IST" duration-ms="601451">
+    <groups>
+    </groups>
+    <test started-at="2024-06-17T22:57:49 IST" name="Test" finished-at="2024-06-17T23:07:50 IST" duration-ms="601451">
+      <class name="tests.RemoveCartTest">
+        <test-method signature="RemoveCart()[pri:0, instance:tests.RemoveCartTest@400d912a]" started-at="2024-06-17T23:00:48 IST" name="RemoveCart" finished-at="2024-06-17T23:04:21 IST" duration-ms="212588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.RemoveCartTest@400d912a]" started-at="2024-06-17T23:04:21 IST" name="teardown" finished-at="2024-06-17T23:04:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.RemoveCartTest -->
+      <class name="tests.LandingPageTest">
+        <test-method signature="LandingPage()[pri:0, instance:tests.LandingPageTest@2caf6912]" started-at="2024-06-17T23:05:54 IST" name="LandingPage" finished-at="2024-06-17T23:06:26 IST" duration-ms="32642" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at resources.Base.initializeBrowser(Base.java:45)
+at tests.LandingPageTest.LandingPage(LandingPageTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.WebDriverException: Failed waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:253)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+... 26 more
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:234)
+... 28 more
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:278)
+at org.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:212)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+... 3 more
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:21678/status] to be available after 20009 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:274)
+... 5 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
+... 6 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LandingPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LandingPageTest@2caf6912]" started-at="2024-06-17T23:06:26 IST" name="teardown" finished-at="2024-06-17T23:06:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LandingPageTest -->
+      <class name="tests.SignUpTest">
+        <test-method signature="signup()[pri:0, instance:tests.SignUpTest@73d69c0f]" started-at="2024-06-17T23:05:56 IST" name="signup" finished-at="2024-06-17T23:07:21 IST" duration-ms="85206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SignUpTest@73d69c0f]" started-at="2024-06-17T23:07:21 IST" name="teardown" finished-at="2024-06-17T23:07:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SignUpTest -->
+      <class name="tests.FashionTest">
+        <test-method signature="fashion()[pri:0, instance:tests.FashionTest@7e97551f]" started-at="2024-06-17T23:00:43 IST" name="fashion" finished-at="2024-06-17T23:01:50 IST" duration-ms="66318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fashion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.FashionTest@7e97551f]" started-at="2024-06-17T23:01:50 IST" name="teardown" finished-at="2024-06-17T23:01:58 IST" duration-ms="8090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.FashionTest -->
+      <class name="tests.TermsOfUse">
+        <test-method signature="TernsOfUse()[pri:0, instance:tests.TermsOfUse@70807224]" started-at="2024-06-17T22:59:47 IST" name="TernsOfUse" finished-at="2024-06-17T23:00:12 IST" duration-ms="25070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TernsOfUse -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TermsOfUse@70807224]" started-at="2024-06-17T23:00:12 IST" name="teardown" finished-at="2024-06-17T23:00:43 IST" duration-ms="31324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.TermsOfUse -->
+      <class name="tests.GiftCardTest">
+        <test-method signature="giftcard()[pri:0, instance:tests.GiftCardTest@294bdeb4]" started-at="2024-06-17T22:57:49 IST" name="giftcard" finished-at="2024-06-17T22:57:59 IST" duration-ms="10567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftcard -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.GiftCardTest@294bdeb4]" started-at="2024-06-17T22:57:59 IST" name="teardown" finished-at="2024-06-17T22:58:00 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.GiftCardTest -->
+      <class name="tests.ProdDetailsTest">
+        <test-method signature="ProductDetails()[pri:0, instance:tests.ProdDetailsTest@1d01dfa5]" started-at="2024-06-17T23:06:52 IST" name="ProductDetails" finished-at="2024-06-17T23:07:22 IST" duration-ms="29385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ProdDetailsTest@1d01dfa5]" started-at="2024-06-17T23:07:22 IST" name="teardown" finished-at="2024-06-17T23:07:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.ProdDetailsTest -->
+      <class name="tests.SearchTest">
+        <test-method signature="Search()[pri:0, instance:tests.SearchTest@d400943]" started-at="2024-06-17T23:07:22 IST" name="Search" finished-at="2024-06-17T23:07:50 IST" duration-ms="28738" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at resources.Base.initializeBrowser(Base.java:45)
+at tests.SearchTest.Search(SearchTest.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:249)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchTest@d400943]" started-at="2024-06-17T23:07:50 IST" name="teardown" finished-at="2024-06-17T23:07:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SearchTest -->
+      <class name="tests.SaveForLaterTest">
+        <test-method signature="SaveCart()[pri:0, instance:tests.SaveForLaterTest@4a31c2ee]" started-at="2024-06-17T23:07:21 IST" name="SaveCart" finished-at="2024-06-17T23:07:44 IST" duration-ms="23427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SaveForLaterTest@4a31c2ee]" started-at="2024-06-17T23:07:44 IST" name="teardown" finished-at="2024-06-17T23:07:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SaveForLaterTest -->
+      <class name="tests.BecomeASellerTest">
+        <test-method signature="seller()[pri:0, instance:tests.BecomeASellerTest@34237b90]" started-at="2024-06-17T23:06:26 IST" name="seller" finished-at="2024-06-17T23:06:52 IST" duration-ms="25738" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at resources.Base.initializeBrowser(Base.java:45)
+at tests.BecomeASellerTest.seller(BecomeASellerTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.WebDriverException: Failed waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:253)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+... 26 more
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:234)
+... 28 more
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:278)
+at org.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:212)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+... 3 more
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:41089/status] to be available after 20002 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:274)
+... 5 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
+... 6 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seller -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.BecomeASellerTest@34237b90]" started-at="2024-06-17T23:06:52 IST" name="teardown" finished-at="2024-06-17T23:06:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.BecomeASellerTest -->
+      <class name="tests.CustomerServiceTest">
+        <test-method signature="contact()[pri:0, instance:tests.CustomerServiceTest@5d05ef57]" started-at="2024-06-17T22:57:49 IST" name="contact" finished-at="2024-06-17T22:57:59 IST" duration-ms="10374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CustomerServiceTest@5d05ef57]" started-at="2024-06-17T22:57:59 IST" name="teardown" finished-at="2024-06-17T22:58:01 IST" duration-ms="1746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.CustomerServiceTest -->
+      <class name="tests.NotificationTest">
+        <test-method signature="notification()[pri:0, instance:tests.NotificationTest@5b5caf08]" started-at="2024-06-17T22:58:58 IST" name="notification" finished-at="2024-06-17T22:59:24 IST" duration-ms="25958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NotificationTest@5b5caf08]" started-at="2024-06-17T22:59:24 IST" name="teardown" finished-at="2024-06-17T22:59:31 IST" duration-ms="6945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.NotificationTest -->
+      <class name="tests.NewSiteShopsyTest">
+        <test-method signature="shopsy()[pri:0, instance:tests.NewSiteShopsyTest@213deac2]" started-at="2024-06-17T22:58:00 IST" name="shopsy" finished-at="2024-06-17T22:58:10 IST" duration-ms="9966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopsy -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NewSiteShopsyTest@213deac2]" started-at="2024-06-17T22:58:10 IST" name="teardown" finished-at="2024-06-17T22:58:12 IST" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.NewSiteShopsyTest -->
+      <class name="tests.NaviagteToCartTest">
+        <test-method signature="NaviagteToCart()[pri:0, instance:tests.NaviagteToCartTest@7a94b64e]" started-at="2024-06-17T23:04:21 IST" name="NaviagteToCart" finished-at="2024-06-17T23:05:51 IST" duration-ms="90509" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: DevToolsActivePort file doesn't exist 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --no-sandbox, --window-size=1920,1080, --disable-gpu, --disable-dev-shm-usage, --allow-insecure-localhost], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: DevToolsActivePort file doesn't exist 
+Host info: host: 'IN-PG03525F', ip: '192.168.1.3'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --no-sandbox, --window-size=1920,1080, --disable-gpu, --disable-dev-shm-usage, --allow-insecure-localhost], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at resources.Base.initializeBrowser(Base.java:45)
+at tests.NaviagteToCartTest.NaviagteToCart(NaviagteToCartTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NaviagteToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.NaviagteToCartTest@7a94b64e]" started-at="2024-06-17T23:05:54 IST" name="teardown" finished-at="2024-06-17T23:05:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.NaviagteToCartTest -->
+      <class name="tests.FlipkartStoriesTest">
+        <test-method signature="stories()[pri:0, instance:tests.FlipkartStoriesTest@28952dea]" started-at="2024-06-17T22:58:12 IST" name="stories" finished-at="2024-06-17T22:58:28 IST" duration-ms="15632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stories -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.FlipkartStoriesTest@28952dea]" started-at="2024-06-17T22:58:28 IST" name="teardown" finished-at="2024-06-17T22:58:42 IST" duration-ms="14552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.FlipkartStoriesTest -->
+      <class name="tests.CartTest">
+        <test-method signature="AddToCart()[pri:0, instance:tests.CartTest@9f6e406]" started-at="2024-06-17T23:01:58 IST" name="AddToCart" finished-at="2024-06-17T23:05:56 IST" duration-ms="238070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CartTest@9f6e406]" started-at="2024-06-17T23:05:56 IST" name="teardown" finished-at="2024-06-17T23:05:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.PincodeTest">
+        <test-method signature="pincode()[pri:0, instance:tests.PincodeTest@23eee4b8]" started-at="2024-06-17T22:58:01 IST" name="pincode" finished-at="2024-06-17T22:58:25 IST" duration-ms="23685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pincode -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.PincodeTest@23eee4b8]" started-at="2024-06-17T22:58:25 IST" name="teardown" finished-at="2024-06-17T22:58:25 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.PincodeTest -->
+      <class name="tests.AboutTest">
+        <test-method signature="About()[pri:0, instance:tests.AboutTest@5a9800f8]" started-at="2024-06-17T22:58:25 IST" name="About" finished-at="2024-06-17T22:58:37 IST" duration-ms="12420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AboutTest@5a9800f8]" started-at="2024-06-17T22:58:37 IST" name="teardown" finished-at="2024-06-17T22:58:58 IST" duration-ms="21208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AboutTest -->
+      <class name="tests.TravelTest">
+        <test-method signature="travel()[pri:0, instance:tests.TravelTest@23cd4ff2]" started-at="2024-06-17T22:59:31 IST" name="travel" finished-at="2024-06-17T23:00:31 IST" duration-ms="59954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TravelTest@23cd4ff2]" started-at="2024-06-17T23:00:31 IST" name="teardown" finished-at="2024-06-17T23:00:48 IST" duration-ms="16828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.TravelTest -->
+      <class name="tests.GroceryTest">
+        <test-method signature="grocery()[pri:0, instance:tests.GroceryTest@143d9a93]" started-at="2024-06-17T22:58:42 IST" name="grocery" finished-at="2024-06-17T22:59:15 IST" duration-ms="32810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grocery -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.GroceryTest@143d9a93]" started-at="2024-06-17T22:59:15 IST" name="teardown" finished-at="2024-06-17T22:59:47 IST" duration-ms="31650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.GroceryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

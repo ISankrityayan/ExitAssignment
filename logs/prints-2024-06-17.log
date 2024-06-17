@@ -1,0 +1,13 @@
+17:06:01.340 [main] INFO  tests.SearchTest - Search results displayed successfully for: ipad
+17:06:01.497 [main] DEBUG tests.SearchTest - Browser closed for test case: SearchTest
+17:07:21.128 [main] INFO  tests.CareerTest - Starting the Careers page test
+17:07:25.012 [main] DEBUG tests.CareerTest - Browser initialized
+17:07:27.855 [main] INFO  tests.CareerTest - Navigated to URL: https://www.flipkart.com/
+17:07:28.037 [main] DEBUG tests.CareerTest - Waiting for the Careers link to be clickable
+17:07:28.298 [main] DEBUG tests.CareerTest - Clicking on Careers link
+17:07:28.523 [main] DEBUG tests.CareerTest - Waiting for Careers page to load
+17:08:33.996 [main] INFO  tests.CareerTest - Starting the Careers page test
+17:08:37.062 [main] DEBUG tests.CareerTest - Browser initialized
+17:08:39.537 [main] INFO  tests.CareerTest - Navigated to URL: https://www.flipkart.com/
+17:08:39.583 [main] DEBUG tests.CareerTest - Waiting for the Careers link to be clickable
+17:08:39.808 [main] DEBUG tests.CareerTest - Clicking on Careers link
